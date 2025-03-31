@@ -8,8 +8,8 @@
     client_secret: "PQZ8Q~XSmMsU4dbgk2KyWMHK1h8X7ciD~H.1_csi"
     graph_api_endpoint: "https://graph.microsoft.com/v1.0"
     # User Information from JSON Input
-    first_name: ""
-    last_name: ""
+    first_name: "{{ first_name }}"
+    last_name: "{{ last_name }}"
  
     # Constructed User Attributes
     display_name: "{{ first_name }} {{ last_name }}"
